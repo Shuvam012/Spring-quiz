@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="online")
+@Table(name="student")
 public class Student {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
